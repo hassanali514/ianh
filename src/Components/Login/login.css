@@ -1,0 +1,58 @@
+.login {
+  height: 100vh;
+}
+.login .left-side {
+  height: 100vh;
+  background: url("../../Assets/LoginContent/Carousal_background.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.login .left-side .carousel {
+  width: 90vmin;
+}
+.login .left-side .carousel .carousel-control-next {
+  display: none;
+}
+.login .left-side .carousel .carousel-control-prev {
+  display: none;
+}
+.login .left-side .carousel .carousel-inner .carousel-item {
+  border-radius: 0 0 10px 19px;
+}
+.login .left-side .carousel .carousel-caption {
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+.login .left-side .carousel .carousel-indicators button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.login .right-side {
+  height: 100vh;
+}
+.login .right-side .image-box {
+  margin-bottom: 1.5rem !important;
+}
+.login .right-side .title {
+  margin-bottom: 1.5rem !important;
+}
+.login .right-side .login-form .form-label {
+  color: #6c757d;
+}
+.login .right-side .login-form input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.35);
+}
+.login .right-side .login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.35);
+}
+.login .right-side .login-form .login-btn {
+  margin-bottom: 1.5rem !important;
+  width: 100%;
+  background: #222b45;
+  border: none;
+}/*# sourceMappingURL=login.css.map */

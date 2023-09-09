@@ -1,0 +1,6 @@
+.offcanvas {
+  width: 256px !important;
+}
+.offcanvas .offcanvas-body .nav .active {
+  background: grey;
+}/*# sourceMappingURL=sidebar.css.map */

@@ -1,0 +1,11 @@
+.offcanvas{
+    width: 256px !important;
+    .offcanvas-body{
+        // background: yellow;
+        .nav{
+            .active{
+                background: grey;
+            }
+        }
+    }
+}
